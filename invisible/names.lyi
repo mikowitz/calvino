@@ -1,0 +1,3 @@
+names = {
+  \set Staff.instrumentName = #"names"
+}

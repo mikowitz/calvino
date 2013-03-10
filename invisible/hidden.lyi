@@ -1,0 +1,3 @@
+hidden = {
+  \set Staff.instrumentName = #"hidden"
+}

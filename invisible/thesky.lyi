@@ -1,0 +1,3 @@
+thesky = {
+  \set Staff.instrumentName = #"thesky"
+}

@@ -1,0 +1,26 @@
+plan = {
+  s8\mark "prelude" s8 * 11
+  s8 * 12 * 9 \bar "||"
+  s8\mark "diomira" s8 * 11
+  s8 * 12 * 9 \bar "||"
+  s8\mark "isidora, dorothea" s8 * 11
+  s8 * 12 * 9 \bar "||"
+  s8\mark "dorothea" s8 * 11
+  s8 * 12 * 9 \bar "||"
+  s8\mark "zaira, anastasia, tamara" s8 * 11
+  s8 * 12 * 9 \bar "||"
+  s8\mark "anastasia, tamara" s8 * 11
+  s8 * 12 * 9 \bar "||"
+  s8\mark "tamara" s8 * 11
+  s8 * 12 * 9 \bar "||"
+  s8\mark "zora, despina, zirma, isaura" s8 * 11
+  s8 * 12 * 9 \bar "||"
+  s8\mark "despina, zirma, isaura" s8 * 11
+  s8 * 12 * 9 \bar "||"
+  s8\mark "zirma, isaura" s8 * 11
+  s8 * 12 * 9 \bar "||"
+  s8\mark "isaura" s8 * 11
+  s8 * 12 * 9 \bar "||"
+  s8\mark "interlude 1" s8 * 11
+  s8 * 12 * 9 \bar "||"
+}

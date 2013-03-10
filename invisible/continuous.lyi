@@ -1,0 +1,3 @@
+continuous = {
+  \set Staff.instrumentName = #"continuous"
+}

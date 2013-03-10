@@ -1,0 +1,14 @@
+signs = {
+  \set Staff.instrumentName = #"signs"
+  \set Staff.shortInstrumentName = #"signs"
+  s8 * 12 * 40
+  %% tamara
+  s8 * 6
+  \repeat unfold 149 {
+    e'8-> c'' a' c''
+  }
+  %% zirma
+  \repeat unfold 30 {
+    f'8-> c' b a
+  }
+}

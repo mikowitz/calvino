@@ -1,0 +1,10 @@
+thin = {
+  \set Staff.instrumentName = #"thin"
+  \set Staff.shortInstrumentName = #"thin"
+  s8 * 12 * 70
+  %% isaura
+  s8 * 5
+  \repeat unfold 95 {
+    d'8-> e' c' d' c'
+  }
+}

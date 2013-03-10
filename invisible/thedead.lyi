@@ -1,0 +1,3 @@
+thedead = {
+  \set Staff.instrumentName = #"thedead"
+}
