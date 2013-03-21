@@ -1,3 +1,20 @@
 eyes = {
+  \override Beam #'breakable = ##t
   \set Staff.instrumentName = #"eyes"
+  \set Staff.shortInstrumentName = #"eyes"
+  \repeat unfold 11 {
+    e8[^"valdrada" g a g a g]
+  }
+  \repeat unfold 11 {
+    b8[^"zemrude" a e d a]
+  }
+  \repeat unfold 11 {
+    a8[^"baucis" b c f a f]
+  }
+  \repeat unfold 11 {
+    g8[^"phyllis" a f b c]
+  }
+  \repeat unfold 11 {
+    g8[^"moriana" c a b a]
+  }
 }

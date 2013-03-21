@@ -2,27 +2,20 @@ memory = {
   \override Beam #'breakable = ##t
   \set Staff.instrumentName = #"memory"
   \set Staff.shortInstrumentName = #"mem."
-  s8 * 12 * 10
-  s8 * 2
-  %% diomira
-  \repeat unfold 20 {
-    d'8[ g' a' g' f' a']
+  \time 12/8 
+  \repeat unfold 11 {
+    d8[^"diomira" g a g f a]
   }
-  %% isidora
-  \repeat unfold 30 {
-    f'[ a' b' g']
+  \repeat unfold 11 {
+    f8[^"isidora" a b g]
   }
-  s8 * 10
-  s8 * 12 * 9
-  %% zaira
-  s8 * 5
-  \repeat unfold 39 {
-    g'8[ e' d']
+  \repeat unfold 11 {
+    g8[^"zaira" e d]
   }
-  s8 * 10
-  s8 * 12 * 19
-  %% zora
-  \repeat unfold 30 {
-    d''8[ c'' e'' g']
+  \repeat unfold 11 {
+    d8[^"zora" c e g]
+  }
+  \repeat unfold 11 {
+    a8[^"maurilia" g e g a g]
   }
 }

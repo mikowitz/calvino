@@ -23,14 +23,14 @@ thema = {
   \time 12/8
   \clef "treble"
   b8[^"with mute"\ppp c' d' b g d' c' f b a b c']
-  \repeat unfold 119 {
+  \repeat unfold 30 {
     b8[ c' d' b g d' c' f b a b c']
   }
 }
 
 \score {
   \new StaffGroup <<
-    \new Staff \plan
+    %\new Staff \plan
     \new Staff \thema
     \new StaffGroup \with {
       systemStartDelimiter = #'SystemStartSquare
@@ -39,13 +39,13 @@ thema = {
       \new Staff \desire
       \new Staff \signs
       \new Staff \thin
-      %\new Staff \trading
-      %\new Staff \eyes
-      %\new Staff \names
-      %\new Staff \thedead
-      %\new Staff \thesky
-      %\new Staff \continuous
-      %\new Staff \hidden
+      \new Staff \trading
+      \new Staff \eyes
+      \new Staff \names
+      \new Staff \thedead
+      \new Staff \thesky
+      \new Staff \continuous
+      \new Staff \hidden
     >>
   >>
   \midi{}

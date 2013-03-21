@@ -1,3 +1,20 @@
 thedead = {
+  \override Beam #'breakable = ##t
   \set Staff.instrumentName = #"thedead"
+  \set Staff.shortInstrumentName = #"dead"
+  \repeat unfold 11 {
+    e8[^"melania" g a e a]
+  }
+  \repeat unfold 11 {
+    a8[^"adelma" e d b]
+  }
+  \repeat unfold 11 {
+    f8[^"eusapia" b c a c f a]
+  }
+  \repeat unfold 11 {
+    g8[^"argia" b a f]
+  }
+  \repeat unfold 11 {
+    e8[^"laudomia" b a g d e g b]
+  }
 }

@@ -1,3 +1,20 @@
 thesky = {
+  \override Beam #'breakable = ##t
   \set Staff.instrumentName = #"thesky"
+  \set Staff.shortInstrumentName = #"sky"
+  \repeat unfold 11 {
+    g8[^"eudoxia" f b c d e]
+  }
+  \repeat unfold 11 {
+    a8[^"beersheba" c f d c a d]
+  }
+  \repeat unfold 11 {
+    c8[^"thekla" g c e f]
+  }
+  \repeat unfold 11 {
+    e8[^"perinthia" f g a e d a g]
+  }
+  \repeat unfold 11 {
+    e8[^"andria" b d b d]
+  }
 }

@@ -1,10 +1,20 @@
 thin = {
+  \override Beam #'breakable = ##t
   \set Staff.instrumentName = #"thin"
   \set Staff.shortInstrumentName = #"thin"
-  s8 * 12 * 70
-  %% isaura
-  s8 * 5
-  \repeat unfold 95 {
-    d'8-> e' c' d' c'
+  \repeat unfold 11 {
+    d8[^"isaura" e c d c]
+  }
+  \repeat unfold 11 {
+    c8[^"zenobia" f b e c b e]
+  }
+  \repeat unfold 11 {
+    b8[^"armilla" c g a c]
+  }
+  \repeat unfold 11 {
+    c8[^"sophronia" a d g e a d b]
+  }
+  \repeat unfold 11 {
+    b8[^"octavia" c f c]
   }
 }

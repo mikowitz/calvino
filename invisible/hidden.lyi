@@ -1,3 +1,20 @@
 hidden = {
+  \override Beam #'breakable = ##t
   \set Staff.instrumentName = #"hidden"
+  \set Staff.shortInstrumentName = #"hid"
+  \repeat unfold 11 {
+    f8[^"olinda" c a e]
+  }
+  \repeat unfold 11 {
+    d8[^"raissa" e g e]
+  }
+  \repeat unfold 11 {
+    f8[^"marozia" d a d e f d]
+  }
+  \repeat unfold 11 {
+    a8[^"theodora" g e b g b c f]
+  }
+  \repeat unfold 11 {
+    e8[^"berenice" b f b d f b]
+  }
 }

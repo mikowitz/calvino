@@ -1,3 +1,20 @@
 names = {
+  \override Beam #'breakable = ##t
   \set Staff.instrumentName = #"names"
+  \set Staff.shortInstrumentName = #"names"
+  \repeat unfold 11 {
+    g8[^"aglaura" e f g e c]
+  }
+  \repeat unfold 11 {
+    c8[^"leandra" a f a e f]
+  }
+  \repeat unfold 11 {
+    f8[^"pyrrha" g e c a]
+  }
+  \repeat unfold 11 {
+    d8[^"clarice" g c g c d a]
+  }
+  \repeat unfold 11 {
+    c8[^"irene" f b a b]
+  }
 }

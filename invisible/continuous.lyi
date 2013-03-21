@@ -1,3 +1,20 @@
 continuous = {
+  \override Beam #'breakable = ##t
   \set Staff.instrumentName = #"continuous"
+  \set Staff.shortInstrumentName = #"cont"
+  \repeat unfold 11 {
+    b8[^"leonia" g c]
+  }
+  \repeat unfold 11 {
+    c8[^"trude" a g e]
+  }
+  \repeat unfold 11 {
+    a8[^"procopia" g a e a g f]
+  }
+  \repeat unfold 11 {
+    a8[^"cecilia" e a e a e]
+  }
+  \repeat unfold 11 {
+    e8[^"penthesilea" f a f a b g f]
+  }
 }

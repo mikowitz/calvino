@@ -1,3 +1,20 @@
 trading = {
+  \override Beam #'breakable = ##t
   \set Staff.instrumentName = #"trading"
+  \set Staff.shortInstrumentName = #"trd"
+  \repeat unfold 11 {
+    d8[^"euphemia" c e d f d f]
+  }
+  \repeat unfold 11 {
+    c8[^"chloe" g b f]
+  }
+  \repeat unfold 11 {
+    a8[^"eutropia" d b c e f b]
+  }
+  \repeat unfold 11 {
+    d8[^"ersilia" f g a g f]
+  }
+  \repeat unfold 11 {
+    b8[^"esmeralda" a f b c g b c]
+  }
 }
