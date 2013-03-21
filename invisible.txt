@@ -1,0 +1,72 @@
+1
+memory 1 diomira
+memory 2 isidora
+desire 1 dorothea
+memory 3 zaira
+desire 2 anastasia
+signs 1 tamara
+memory 4 zora
+desire 3 despina
+signs 2 zirma
+thin 1 isaura
+
+2
+memory 5 maurilia
+desire 4 fedora
+signs 3 zoe
+thin 2 zenobia
+trading 1 euphemia
+
+3
+desire 5 zobeide
+signs 4 hypatia
+thin 3 armilla
+trading 2 chloe
+eyes 1 valdrada
+
+4
+signs 5 olivia
+thin 4 sophronia
+trading 3 eutropia
+eyes 2 zemrude
+names 1 aglaura
+
+5
+thin 5 octavia
+trading 4 ersilia
+eyes 3 baucis
+names 2 leandra
+dead 1 melania
+
+6
+trading 5 esmerelda
+eyes 4 phyllis
+names 3 pyrrha
+dead 2 adelma
+sky 1 eudoxia
+
+7
+eyes 5 moriana
+names 4 clarice
+dead 3 eusapia
+sky 2 beersheba
+continuous 1 leonia
+
+8
+names 5 irene
+dead 4 argia
+sky 3 thekla
+continuous 2 trude
+hidden 1 olinda
+
+9
+dead 5 laudomia
+sky 4 perinthia
+continuous 3 procopia
+hidden 2 raissa
+sky 5 andria
+continuous 4 cecilia
+hidden 3 marozia
+continuous 5 penthesilea
+hidden 4 theodora
+hidden 5 berenice
