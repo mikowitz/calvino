@@ -1,3 +1,4 @@
 *.pdf
 *.mid
 *.midi
+.DS_Store
