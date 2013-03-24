@@ -37,16 +37,16 @@ thema = {
     } <<
       \new Staff \memory
       \new Staff \desire
-      \new Staff \signs
-      \new Staff \thin
-      \new Staff \trading
-      \new Staff \eyes
-      \new Staff \names
-      \new Staff \thedead
-      \new Staff \thesky
-      \new Staff \continuous
-      \new Staff \hidden
+      %\new Staff \signs
+      %\new Staff \thin
+      %\new Staff \trading
+      %\new Staff \eyes
+      %\new Staff \names
+      %\new Staff \thedead
+      %\new Staff \thesky
+      %\new Staff \continuous
+      %\new Staff \hidden
     >>
   >>
-  \midi{}
+  %\midi{}
 }

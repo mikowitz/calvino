@@ -2,6 +2,9 @@ signs = {
   \override Beam #'breakable = ##t
   \set Staff.instrumentName = #"signs"
   \set Staff.shortInstrumentName = #"signs"
+  \clef "bass"
+  % prelude
+  s8 * 12 * 11
   \repeat unfold 11 {
     e8[^"tamara" c a c]
   }

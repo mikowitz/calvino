@@ -2,6 +2,9 @@ desire = {
   \override Beam #'breakable = ##t
   \set Staff.instrumentName = #"desire"
   \set Staff.shortInstrumentName = #"des."
+  \clef "bass"
+  % prelude
+  s8 * 12 * 11
   \repeat unfold 11 {
     d8[^"dorothea" c f c b g b g]
   }

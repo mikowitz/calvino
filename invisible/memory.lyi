@@ -2,7 +2,11 @@ memory = {
   \override Beam #'breakable = ##t
   \set Staff.instrumentName = #"memory"
   \set Staff.shortInstrumentName = #"mem."
+  \clef "bass"
   \time 12/8 
+  % prelude
+  s8 * 12 * 11
+  % diomira
   \repeat unfold 11 {
     d8[^"diomira" g a g f a]
   }
