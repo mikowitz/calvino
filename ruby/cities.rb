@@ -14,6 +14,18 @@ class Part
     add MELODIES[city].tag('8').tag(%|^"(#{city})"|).beam 
     repeats.times { add MELODIES[city].beam }
   end
+
+  def double_bar
+    add '\bar "||"'
+  end
+
+  def s(n)
+    add "s8 * #{n}"
+  end
+
+  def ss(n)
+    add "s8 * 12 * #{n}"
+  end
 end
 
 s = score 'invisible' do
@@ -22,109 +34,108 @@ s = score 'invisible' do
     add '\time 12/8'
     add THEME.tag('8').tag('^"prelude"').beam
     10.times { add THEME.beam }
-    add '\bar "||"'
+    double_bar
     46.times { add THEME.beam }
-    add '\bar "||"'
+    double_bar
     add THEME.tag('8').beam.tag('^"interlude I"')
     10.times { add THEME.beam }
-    add '\bar "||"'
+    double_bar
     26.times { add THEME.beam }
-    add '\bar "||"'
+    double_bar
   end
   part 'memory' do
     add %{\\override Beam #'breakable = ##t}
-    11.times { add 's8 * 12' }
-    add 's8 * 2'
+    ss 11
+    s 2
     city_haupstimme('diomira')
     city_haupstimme('isidora')
-    add 's8 * 8'
-    add 's8 * 12 * 6'
-    add 's8 * 5'
+    s 8
+    ss 6
+    s 5
     city_haupstimme('zaira')
-    add 's8 * 10'
-    add 's8 * 12 * 8'
+    s 10
+    ss 8
     city_haupstimme('zora')
-    add 's8 * 4'
-    add 's8 * 12 * 14'
-    #11.times { add 's8 * 12' }
+    s 4
+    ss 14
     # interlude 1
-    add 's8'
+    s 1
     add %{ c'4 b d' f a c'8 ~ }
     9.times { add %{ c'8 c'4 b d' f a c'8 ~} }
     add %{ c'8 c'4 b d' f a c'8 }
     # maurilia
     city_haupstimme('maurilia')
-    add 's8 * 6'
-    add 's8 * 12 * 20'
+    s 6
+    ss 20
   end
   part 'desire' do
     add %{\\override Beam #'breakable = ##t}
-    11.times { add 's8 * 12' }
-    5.times { add 's8 * 12' }
-    add 's8 * 10'
+    ss 11
+    ss 5
+    s 10
     city_nebenstimme('dorothea', 4) 
     city_haupstimme('dorothea')
     city_nebenstimme('dorothea', 3) 
     city_haupstimme('anastasia')
-    add 's8 * 4'
-    add 's8 * 12 * 3'
-    add 's8'
+    s 4 
+    ss 3
+    s 1
     city_nebenstimme('anastasia', 6)
     city_haupstimme('despina')
-    add 's8 * 11'
-    add 's8 * 12 * 8'
-    11.times { add 's8 * 12' }
-    add 's8 * 5'
+    s 11
+    ss 8
+    ss 11
+    s 5
     city_nebenstimme('despina', 9)
     city_haupstimme('fedora')
-    add 's8'
-    add 's8 * 12 * 15'
+    s 1
+    ss 15
   end
   part 'signs' do
     add %{\\override Beam #'breakable = ##t}
-    11.times { add 's8 * 12' }
-    16.times { add 's8 * 12' }
-    add 's8 * 6'
+    ss 11
+    ss 16
+    s 6
     city_nebenstimme('tamara', 23)
     city_haupstimme('tamara')
     city_nebenstimme('tamara', 26)
     city_haupstimme('zirma')
-    add 's8 * 2'
-    add 's8 * 12 * 5'
-    11.times { add 's8 * 12' }
-    add 's8 * 7'
+    s 2
+    ss 5
+    ss 11
+    s 7
     city_nebenstimme('zirma', 30)
     city_haupstimme('zoe')
-    add 's8 * 3'
-    add 's8 * 12 * 13'
+    s 3
+    ss 13
   end
   part 'thin' do
     add %{\\override Beam #'breakable = ##t}
-    11.times { add 's8 * 12' }
-    28.times { add 's8 * 12' }
-    add 's8 * 4'
+    ss 11
+    ss 28
+    s 4
     city_nebenstimme('isaura', 29)
     city_haupstimme('isaura')
-    add 's8 * 7'
-    11.times { add 's8 * 12' }
-    add 's8 * 10'
+    s 7
+    ss 11
+    s 10
     city_nebenstimme('isaura', 27)
     # isaura elides into zenobia on the final/first c'
     add %| d'[ e' e' d']^"*" |
     city_haupstimme('zenobia')
-    add 's8 * 9'
-    add 's8 * 12 * 6'
+    s 9
+    ss 6
   end
   part 'trading' do
     add %{\\override Beam #'breakable = ##t}
-    11.times { add 's8 * 12' }
-    57.times { add 's8 * 12' }
-    add 's8 * 11'
+    ss 11
+    ss 57
+    s 11
     city_nebenstimme('euphemia', 31)
     city_haupstimme('euphemia')
   end
   part 'hidden' do
-    57.times { add 's8 * 12' }
+    ss 57
     11.times { add %{ b4 d' g c' b b } }
   end
 end

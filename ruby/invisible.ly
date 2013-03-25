@@ -113,17 +113,7 @@ memory = {
 \set Staff.instrumentName = #"memory"
 \set Staff.shortInstrumentName = "memory"
 \override Beam #'breakable = ##t
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
+s8 * 12 * 11
 s8 * 2
 d'8^"diomira"[ g' a' g' f' a']
 d'[ g' a' g' f' a']
@@ -176,7 +166,7 @@ d''[ c'' e'' g'']
 d''[ c'' e'' g'']
 s8 * 4
 s8 * 12 * 14
-s8
+s8 * 1
  c'4 b d' f a c'8 ~ 
  c'8 c'4 b d' f a c'8 ~
  c'8 c'4 b d' f a c'8 ~
@@ -207,22 +197,8 @@ desire = {
 \set Staff.instrumentName = #"desire"
 \set Staff.shortInstrumentName = "desire"
 \override Beam #'breakable = ##t
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
+s8 * 12 * 11
+s8 * 12 * 5
 s8 * 10
 d''8^"(dorothea)"[ c'' f'' c'' b' g' b' g']
 d''[ c'' f'' c'' b' g' b' g']
@@ -257,7 +233,7 @@ b'[ a' g' b' a' d'']
 b'[ a' g' b' a' d'']
 s8 * 4
 s8 * 12 * 3
-s8
+s8 * 1
 b'8^"(anastasia)"[ a' g' b' a' d'']
 b'[ a' g' b' a' d'']
 b'[ a' g' b' a' d'']
@@ -278,17 +254,7 @@ f''[ d'' f'' e'' g'' e'']
 f''[ d'' f'' e'' g'' e'']
 s8 * 11
 s8 * 12 * 8
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
+s8 * 12 * 11
 s8 * 5
 f''8^"(despina)"[ d'' f'' e'' g'' e'']
 f''[ d'' f'' e'' g'' e'']
@@ -311,7 +277,7 @@ d''[ b' d'' f'' e'' g']
 d''[ b' d'' f'' e'' g']
 d''[ b' d'' f'' e'' g']
 d''[ b' d'' f'' e'' g']
-s8
+s8 * 1
 s8 * 12 * 15
 }
 
@@ -319,33 +285,8 @@ signs = {
 \set Staff.instrumentName = #"signs"
 \set Staff.shortInstrumentName = "signs"
 \override Beam #'breakable = ##t
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
+s8 * 12 * 11
+s8 * 12 * 16
 s8 * 6
 e'8^"(tamara)"[ c'' a' c'']
 e'[ c'' a' c'']
@@ -422,17 +363,7 @@ f'[ c'' b' a']
 f'[ c'' b' a']
 s8 * 2
 s8 * 12 * 5
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
+s8 * 12 * 11
 s8 * 7
 f'8^"(zirma)"[ c'' b' a']
 f'[ c'' b' a']
@@ -484,45 +415,8 @@ thin = {
 \set Staff.instrumentName = #"thin"
 \set Staff.shortInstrumentName = "thin"
 \override Beam #'breakable = ##t
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
+s8 * 12 * 11
+s8 * 12 * 28
 s8 * 4
 d'8^"(isaura)"[ e' c' d' c']
 d'[ e' c' d' c']
@@ -566,17 +460,7 @@ d'[ e' c' d' c']
 d'[ e' c' d' c']
 d'[ e' c' d' c']
 s8 * 7
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
+s8 * 12 * 11
 s8 * 10
 d'8^"(isaura)"[ e' c' d' c']
 d'[ e' c' d' c']
@@ -626,74 +510,8 @@ trading = {
 \set Staff.instrumentName = #"trading"
 \set Staff.shortInstrumentName = "trading"
 \override Beam #'breakable = ##t
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
+s8 * 12 * 11
+s8 * 12 * 57
 s8 * 11
 d''8^"(euphemia)"[ c'' e'' d'' f'' d'' f'']
 d''[ c'' e'' d'' f'' d'' f'']
@@ -743,63 +561,7 @@ d''[ c'' e'' d'' f'' d'' f'']
 hidden = {
 \set Staff.instrumentName = #"hidden"
 \set Staff.shortInstrumentName = "hidden"
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
-s8 * 12
+s8 * 12 * 57
  b4 d' g c' b b 
  b4 d' g c' b b 
  b4 d' g c' b b 
@@ -823,5 +585,4 @@ s8 * 12
     \new Staff \trading
     \new Staff \hidden
   >>
-  \midi{}
 }
