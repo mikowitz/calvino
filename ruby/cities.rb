@@ -127,7 +127,83 @@ s = score 'invisible' do
     # interlude 4
     add %{ s8 c'4 ~ c'4. ~ c'8 f4 ~ f4. ~ }
     9.times{ add %{ f8 c'4 ~ c'4. ~ c'8 f4 ~ f4. ~ } }
-    add %{ f8 c'4 ~ c'4. ~ c'8 f4 ~ f4. ~ }
+    add %{ f8 c'4 ~ c'4. ~ c'8 f4 ~ f4. }
+    ss 25
+    s 1
+    add %{ c'8 ~ c'2 ~ c'4 b2 ~ }
+    add %{ b4. b4. ~ b2 b4 ~ }
+    add %{ b2 ~ b8 d'8 ~ d'2. }
+    add %{ b2. ~ b8 f8 ~ f2 ~ }
+    add %{ f4 d'2 ~ d'4. a4. ~ }
+    add %{ a2 g4 ~ g2 ~ g8 c'8 ~ }
+    add %{ c'2. c'2. ~ }
+    add %{ c'8 c'8 ~ c'2 ~ c'4 b2 ~ }
+    add %{ b4. b4. ~ b2 b4 ~ }
+    add %{ b2 ~ b8 d'8 ~ d'2. }
+    add %{ b2. ~ b8 f8 ~ f2 }
+    add %{\\override Beam #'breakable = ##t}
+    ss 26
+    s 1
+    add <<-lily
+      c'8 ~ c'2 ~ c'4. a4. ~
+      a2 ~ a8 d'8 ~ d'2. ~
+      d'8 c'8 ~ c'2 ~ c'4. a4. ~
+      a2 ~ a8 d'8 ~ d'2. ~
+      d'8 c'8 ~ c'2 ~ c'4. a4. ~
+      a2 ~ a8 d'8 ~ d'2. ~
+      d'8 c'8 ~ c'2 ~ c'4. a4. ~
+      a2 ~ a8 d'8 ~ d'2. ~
+      d'8 c'8 ~ c'2 ~ c'4. a4. ~
+      a2 ~ a8 d'8 ~ d'2. ~
+      d'8 c'8 ~ c'2 ~ c'4. a4.
+    lily
+    add %{\\override Beam #'breakable = ##t}
+    ss 27
+    s 1
+    add <<-lily
+      c'4 ~ c'4. ~ c'4. ~ c'8 b4 ~
+      b2. ~ b8 f4 ~ f4. ~
+      f4. ~ f8 g4 ~ g2. ~
+      g8 c'4 ~ c'4. ~ c'4. ~ c'8 b4 ~
+      b2. ~ b8 f4 ~ f4. ~
+      f4. ~ f8 g4 ~ g2. ~
+      g8 c'4 ~ c'4. ~ c'4. ~ c'8 b4 ~
+      b2. ~ b8 f4 ~ f4. ~
+      f4. ~ f8 g4 ~ g2. ~
+      g8 c'4 ~ c'4. ~ c'4. ~ c'8 b4 ~
+      b2. ~ b8 f4 ~ f4.
+    lily
+    add %{\\override Beam #'breakable = ##t}
+    ss 21
+    s 1
+    add <<-lily
+      c'4 ~ c'4. ~ c'4. ~ c'4 c'8 ~
+      c'2. ~ c'4. a4. ~
+      a2. ~ a8 f4 ~ f4. ~
+      f4. ~ f4 d'8 ~ d'2. ~
+      d'4. b4. ~ b2. ~
+      b8 c'4 ~ c'4. ~ c'4. ~ c'4 c'8 ~
+      c'2. ~ c'4. a4. ~
+      a2. ~ a8 f4 ~ f4. ~
+      f4. ~ f4 d'8 ~ d'2. ~
+      d'4. b4. ~ b2. ~
+      b8 c'4 ~ c'4. ~ c'4. ~ c'4 c'8
+    lily
+    add %{\\override Beam #'breakable = ##t}
+    s 7
+    city_nebenstimme('diomira', 123)
+    s 5
+    add %{\\override Beam #'breakable = ##t}
+    s 1
+    add <<-lily
+      c'4 ~ c'4. ~ c'2.
+      b2. ~ b4. ~ b4 c'8 ~
+      c'2. ~ c'4. ~ c'8 b4 ~
+      b2. ~ b4. a4. ~
+      a2. ~ a4 b8 ~ b4. ~
+      b2. ~ b8 f8 s8 s4.
+    lily
+    ss 5
   end
   part 'desire' do
     add %{\\override Beam #'breakable = ##t}
