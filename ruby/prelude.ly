@@ -3,21 +3,20 @@
 
 #(set-global-staff-size 13)
 
-%%\layout {
-%%  \context {
-%%    \Staff \RemoveEmptyStaves
-%%  }
-%%}
+\layout {
+  \context {
+    \Staff \RemoveEmptyStaves
+  }
+}
 
 \paper {
   system-separator-markup = \slashSeparator
-  tagline = ""
 }
 
 
 \header {
     title = "INVISIBLE CITIES"
-    subtitle = "Postlude"
+    subtitle = "Prelude"
 
 }
 
@@ -27,7 +26,7 @@ thema = {
 \override Beam #'breakable = ##t
 \tempo 4 = 180
 \time 12/8
-b8\pp[^"postlude" c' d' b g d' c' f b a b c']
+b8\pp[^"prelude" c' d' b g d' c' f b a b c']
 b[ c' d' b g d' c' f b a b c']
 b\<[ c' d' b g d' c' f b a b c']
 b[ c' d' b g d' c' f b a b c']
@@ -39,23 +38,14 @@ b[ c' d' b g d' c' f b a b c']
 b\pp[ c' d' b g d' c' f b a b c']
 b[ c' d' b g d' c' f b a b c']
 \bar "||"
-\bar "|."
 }
 
 memory = {
 \set Staff.instrumentName = #"memory"
-\set Staff.shortInstrumentName = "mem"
+\set Staff.shortInstrumentName = "mem."
 \override Beam #'breakable = ##t
 \override Beam #'breakable = ##t
-s8 * 1
-      c'4\pp ~ c'4. ~ c'2.
-      b2. ~ b4. ~ b4 c'8 ~
-      c'2. ~ c'4. ~ c'8 b4 ~
-      b2. ~ b4. a4. ~
-      a2. ~ a4 b8 ~ b4. ~
-      b2. ~ b8 f8 s8 s4.
-
-s8 * 12 * 5
+s8 * 12 * 11
 }
 
 desire = {
@@ -63,15 +53,7 @@ desire = {
 \set Staff.shortInstrumentName = "des."
 \override Beam #'breakable = ##t
 \override Beam #'breakable = ##t
-s8 * 3
-      b4.\pp ~ b2. ~
-      b4 d'8 ~ d'4. ~ d'2. ~
-      d'8 c'4 ~ c'4. ~ c'2.
-      b2. ~ b4. ~ b4 c'8 ~
-      c'2. ~ c'4. ~ c'8 b4 ~
-      b2. ~ b4. a8 s4
-
-s8 * 12 * 5
+s8 * 12 * 11
 }
 
 signs = {
@@ -79,15 +61,7 @@ signs = {
 \set Staff.shortInstrumentName = "signs"
 \override Beam #'breakable = ##t
 \override Beam #'breakable = ##t
-s8 * 5
-      d'8\pp ~ d'2. ~
-      d'4. ~ d'8 g4 ~ g2. ~
-      g4. b4. ~ b2. ~
-      b4 d'8 ~ d'4. ~ d'2. ~
-      d'8 c'4 ~ c'4. ~ c'2.
-      b2. ~ b4. ~ b4 c'8
-
-s8 * 12 * 5
+s8 * 12 * 11
 }
 
 thin = {
@@ -95,15 +69,7 @@ thin = {
 \set Staff.shortInstrumentName = "thin"
 \override Beam #'breakable = ##t
 \override Beam #'breakable = ##t
-s8 * 7
-      f4\pp ~ f4. ~
-      f2.  c'2. ~
-      c'4. ~ c'4 d'8 ~ d'2. ~
-      d'4. ~ d'8 g4 ~ g2. ~
-      g4. b4. ~ b2. ~
-      b4 d'8 s4. s2.
-
-s8 * 12 * 5
+s8 * 12 * 11
 }
 
 trading = {
@@ -111,15 +77,7 @@ trading = {
 \set Staff.shortInstrumentName = "trd."
 \override Beam #'breakable = ##t
 \override Beam #'breakable = ##t
-s8 * 9
-      a4.\pp ~
-      a2. ~ a4 b8 ~ b4. ~
-      b2. ~ b8 f4 ~ f4. ~
-      f2.  c'2. ~
-      c'4. ~ c'4 d'8 ~ d'2. ~
-      d'4. ~ d'8 g8 s8 s2.
-
-s8 * 12 * 5
+s8 * 12 * 11
 }
 
 eyes = {
@@ -127,15 +85,7 @@ eyes = {
 \set Staff.shortInstrumentName = "eyes"
 \override Beam #'breakable = ##t
 \override Beam #'breakable = ##t
-s8 * 10
-      b4\pp ~
-      b2. ~ b4. a4. ~
-      a2. ~ a4 b8 ~ b4. ~
-      b2. ~ b8 f4 ~ f4. ~
-      f2.  c'2. ~
-      c'4. ~ c'4 d'8 s2.
-
-s8 * 12 * 5
+s8 * 12 * 11
 }
 
 names = {
@@ -143,15 +93,7 @@ names = {
 \set Staff.shortInstrumentName = "names"
 \override Beam #'breakable = ##t
 \override Beam #'breakable = ##t
-s8 * 8
-      b8\pp ~ b4. ~
-      b2. ~ b8 f4 ~ f4. ~
-      f2.  c'2. ~
-      c'4. ~ c'4 d'8 ~ d'2. ~
-      d'4. ~ d'8 g4 ~ g2. ~
-      g4. b8 s4 s2.
-
-s8 * 12 * 5
+s8 * 12 * 11
 }
 
 dead = {
@@ -159,16 +101,7 @@ dead = {
 \set Staff.shortInstrumentName = "dead"
 \override Beam #'breakable = ##t
 \override Beam #'breakable = ##t
-s8 * 6
-      c'2.\pp ~
-      c'4. ~ c'4 d'8 ~ d'2. ~
-      d'4. ~ d'8 g4 ~ g2. ~
-      g4. b4. ~ b2. ~
-      b4 d'8 ~ d'4. ~ d'2. ~
-      %% d'8 c'4 ~ c'4. ~ c'2.
-      d'8 c'8 s8 s4. s2.
-
-s8 * 12 * 5
+s8 * 12 * 11
 }
 
 sky = {
@@ -176,15 +109,7 @@ sky = {
 \set Staff.shortInstrumentName = "sky"
 \override Beam #'breakable = ##t
 \override Beam #'breakable = ##t
-s8 * 4
-      g4\pp ~ g2. ~
-      g4. b4. ~ b2. ~
-      b4 d'8 ~ d'4. ~ d'2. ~
-      d'8 c'4 ~ c'4. ~ c'2.
-      b2. ~ b4. ~ b4 c'8 ~
-      c'2. ~ c'4. ~ c'8 b8 s8
-
-s8 * 12 * 5
+s8 * 12 * 11
 }
 
 continuous = {
@@ -192,15 +117,7 @@ continuous = {
 \set Staff.shortInstrumentName = "cont."
 \override Beam #'breakable = ##t
 \override Beam #'breakable = ##t
-s8 * 2
-      d'8\pp ~ d'4. ~ d'2. ~
-      d'8 c'4 ~ c'4. ~ c'2.
-      b2. ~ b4. ~ b4 c'8 ~
-      c'2. ~ c'4. ~ c'8 b4 ~
-      b2. ~ b4. a4. ~
-      a2. ~ a4 b8 s4.
-
-s8 * 12 * 5
+s8 * 12 * 11
 }
 
 hidden = {
@@ -208,14 +125,7 @@ hidden = {
 \set Staff.shortInstrumentName = "hid."
 \override Beam #'breakable = ##t
 \override Beam #'breakable = ##t
-      b2.\pp ~ b4. ~ b4 c'8 ~
-      c'2. ~ c'4. ~ c'8 b4 ~
-      b2. ~ b4. a4. ~
-      a2. ~ a4 b8 ~ b4. ~
-      b2. ~ b8 f4 ~ f4. ~
-      f2. c'8 s4 s4.
-
-s8 * 12 * 5
+s8 * 12 * 11
 }
 
 \score {

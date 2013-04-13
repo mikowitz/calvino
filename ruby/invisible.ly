@@ -544,7 +544,202 @@ s8 * 12 * 27
  f8 c'4 ~ c'4. ~ c'8 f4 ~ f4. ~ 
  f8 c'4 ~ c'4. ~ c'8 f4 ~ f4. ~ 
  f8 c'4 ~ c'4. ~ c'8 f4 ~ f4. ~ 
- f8 c'4 ~ c'4. ~ c'8 f4 ~ f4. ~ 
+ f8 c'4 ~ c'4. ~ c'8 f4 ~ f4. 
+s8 * 12 * 25
+s8 * 1
+ c'8 ~ c'2 ~ c'4 b2 ~ 
+ b4. b4. ~ b2 b4 ~ 
+ b2 ~ b8 d'8 ~ d'2. 
+ b2. ~ b8 f8 ~ f2 ~ 
+ f4 d'2 ~ d'4. a4. ~ 
+ a2 g4 ~ g2 ~ g8 c'8 ~ 
+ c'2. c'2. ~ 
+ c'8 c'8 ~ c'2 ~ c'4 b2 ~ 
+ b4. b4. ~ b2 b4 ~ 
+ b2 ~ b8 d'8 ~ d'2. 
+ b2. ~ b8 f8 ~ f2 
+\override Beam #'breakable = ##t
+s8 * 12 * 26
+s8 * 1
+      c'8 ~ c'2 ~ c'4. a4. ~
+      a2 ~ a8 d'8 ~ d'2. ~
+      d'8 c'8 ~ c'2 ~ c'4. a4. ~
+      a2 ~ a8 d'8 ~ d'2. ~
+      d'8 c'8 ~ c'2 ~ c'4. a4. ~
+      a2 ~ a8 d'8 ~ d'2. ~
+      d'8 c'8 ~ c'2 ~ c'4. a4. ~
+      a2 ~ a8 d'8 ~ d'2. ~
+      d'8 c'8 ~ c'2 ~ c'4. a4. ~
+      a2 ~ a8 d'8 ~ d'2. ~
+      d'8 c'8 ~ c'2 ~ c'4. a4.
+
+\override Beam #'breakable = ##t
+s8 * 12 * 27
+s8 * 1
+      c'4 ~ c'4. ~ c'4. ~ c'8 b4 ~
+      b2. ~ b8 f4 ~ f4. ~
+      f4. ~ f8 g4 ~ g2. ~
+      g8 c'4 ~ c'4. ~ c'4. ~ c'8 b4 ~
+      b2. ~ b8 f4 ~ f4. ~
+      f4. ~ f8 g4 ~ g2. ~
+      g8 c'4 ~ c'4. ~ c'4. ~ c'8 b4 ~
+      b2. ~ b8 f4 ~ f4. ~
+      f4. ~ f8 g4 ~ g2. ~
+      g8 c'4 ~ c'4. ~ c'4. ~ c'8 b4 ~
+      b2. ~ b8 f4 ~ f4.
+
+\override Beam #'breakable = ##t
+s8 * 12 * 21
+s8 * 1
+      c'4 ~ c'4. ~ c'4. ~ c'4 c'8 ~
+      c'2. ~ c'4. a4. ~
+      a2. ~ a8 f4 ~ f4. ~
+      f4. ~ f4 d'8 ~ d'2. ~
+      d'4. b4. ~ b2. ~
+      b8 c'4 ~ c'4. ~ c'4. ~ c'4 c'8 ~
+      c'2. ~ c'4. a4. ~
+      a2. ~ a8 f4 ~ f4. ~
+      f4. ~ f4 d'8 ~ d'2. ~
+      d'4. b4. ~ b2. ~
+      b8 c'4 ~ c'4. ~ c'4. ~ c'4 c'8
+
+\override Beam #'breakable = ##t
+s8 * 7
+d'8^"(diomira)"[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+d'[ g' a' g' f' a']
+s8 * 5
+\override Beam #'breakable = ##t
+s8 * 1
+      c'4 ~ c'4. ~ c'2.
+      b2. ~ b4. ~ b4 c'8 ~
+      c'2. ~ c'4. ~ c'8 b4 ~
+      b2. ~ b4. a4. ~
+      a2. ~ a4 b8 ~ b4. ~
+      b2. ~ b8 f8 s8 s4.
+
+s8 * 12 * 5
 }
 
 desire = {
@@ -669,6 +864,134 @@ s8 * 12 * 27
  a4. b4. ~ b4. a4. ~ 
  a4. b4. ~ b4. a4. ~ 
  a4. b4. ~ b4. a4. 
+s8 * 12 * 25
+s8 * 3
+ b4. ~ b2 b4 ~ 
+ b2 ~ b8 d'8 ~ d'2. 
+ b2. ~ b8 f8 ~ f2 ~ 
+ f4 d'2 ~ d'4. a4. ~ 
+ a2 g4 ~ g2 ~ g8 c'8 ~ 
+ c'2. c'2. ~ 
+ c'8 c'8 ~ c'2 ~ c'4 b2 ~ 
+ b4. b4. ~ b2 b4 ~ 
+ b2 ~ b8 d'8 ~ d'2. 
+ b2. ~ b8 f8 ~ f2 ~ 
+ f4 d'2 ~ d'4. a4. 
+\override Beam #'breakable = ##t
+s8 * 12 * 26
+s8 * 3
+      b4. ~ b2 ~ b8 c'8 ~
+      c'2. ~ c'8 f8 ~ f2 ~
+      f4. b4. ~ b2 ~ b8 c'8 ~
+      c'2. ~ c'8 f8 ~ f2 ~
+      f4. b4. ~ b2 ~ b8 c'8 ~
+      c'2. ~ c'8 f8 ~ f2 ~
+      f4. b4. ~ b2 ~ b8 c'8 ~
+      c'2. ~ c'8 f8 ~ f2 ~
+      f4. b4. ~ b2 ~ b8 c'8 ~
+      c'2. ~ c'8 f8 ~ f2 ~
+      f4. b4. ~ b2 ~ b8 c'8
+
+\override Beam #'breakable = ##t
+s8 * 12 * 27
+s8 * 3
+      b4. ~ b2.
+      b2. ~ b4. a4. ~
+      a2. c'2. ~
+      c'4.  b4. ~ b2.
+      b2. ~ b4. a4. ~
+      a2. c'2. ~
+      c'4.  b4. ~ b2.
+      b2. ~ b4. a4. ~
+      a2. c'2. ~
+      c'4.  b4. ~ b2.
+      b2. ~ b4. a4.
+
+\override Beam #'breakable = ##t
+s8 * 12 * 21
+s8 * 3
+      b4. ~ b2. ~
+      b8 c'4 ~ c'4. ~ c'4. ~ c'4 c'8 ~
+      c'2. ~ c'4. a4. ~
+      a2. ~ a8 f4 ~ f4. ~
+      f4. ~ f4 d'8 ~ d'2. ~
+      d'4. b4. ~ b2. ~
+      b8 c'4 ~ c'4. ~ c'4. ~ c'4 c'8 ~
+      c'2. ~ c'4. a4. ~
+      a2. ~ a8 f4 ~ f4. ~
+      f4. ~ f4 d'8 ~ d'2. ~
+      d'4. b4. ~ b2.
+
+\override Beam #'breakable = ##t
+s8 * 12 * 25
+s8 * 6
+d''8^"(dorothea)"[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+d''[ c'' f'' c'' b' g' b' g']
+s8 * 2
+\override Beam #'breakable = ##t
+s8 * 3
+      b4. ~ b2. ~
+      b4 d'8 ~ d'4. ~ d'2. ~
+      d'8 c'4 ~ c'4. ~ c'2.
+      b2. ~ b4. ~ b4 c'8 ~
+      c'2. ~ c'4. ~ c'8 b4 ~
+      b2. ~ b4. a8 s4
+
+s8 * 12 * 5
 }
 
 signs = {
@@ -873,6 +1196,34 @@ s8 * 12 * 24
  c'4. ~ c'4 d'8 ~ d'4. ~ d'4 c'8 ~ 
  c'4. ~ c'4 d'8 ~ d'4. ~ d'4 c'8 ~ 
  c'4. ~ c'4 d'8 ~ d'4. ~ d'4 c'8 
+s8 * 12 * 25
+s8 * 5
+ d'8 ~ d'2. 
+ b2. ~ b8 f8 ~ f2 ~ 
+ f4 d'2 ~ d'4. a4. ~ 
+ a2 g4 ~ g2 ~ g8 c'8 ~ 
+ c'2. c'2. ~ 
+ c'8 c'8 ~ c'2 ~ c'4 b2 ~ 
+ b4. b4. ~ b2 b4 ~ 
+ b2 ~ b8 d'8 ~ d'2. 
+ b2. ~ b8 f8 ~ f2 ~ 
+ f4 d'2 ~ d'4. a4. ~ 
+ a2 g4 ~ g2 ~ g8 c'8 
+\override Beam #'breakable = ##t
+s8 * 12 * 26
+s8 * 5
+      d'8 ~ d'2. ~
+      d'8 c'8 ~ c'2 ~ c'4. a4. ~
+      a2 ~ a8 d'8 ~ d'2. ~
+      d'8 c'8 ~ c'2 ~ c'4. a4. ~
+      a2 ~ a8 d'8 ~ d'2. ~
+      d'8 c'8 ~ c'2 ~ c'4. a4. ~
+      a2 ~ a8 d'8 ~ d'2. ~
+      d'8 c'8 ~ c'2 ~ c'4. a4. ~
+      a2 ~ a8 d'8 ~ d'2. ~
+      d'8 c'8 ~ c'2 ~ c'4. a4. ~
+      a2 ~ a8 d'8 ~ d'2.
+
 }
 
 thin = {
@@ -1021,6 +1372,36 @@ c'[ a d' g e' a d' b]
 c'[ a d' g e' a d' b]
 s8 * 1
 s8 * 12 * 28
+\override Beam #'breakable = ##t
+b8^"octavia"[ c' f' c']
+b[ c' f' c']
+b[ c' f' c']
+b[ c' f' c']
+b[ c' f' c']
+b[ c' f' c']
+b[ c' f' c']
+b[ c' f' c']
+b[ c' f' c']
+b[ c' f' c']
+b[ c' f' c']
+s8 * 4
+s8 * 12 * 21
+s8 * 12 * 11
+\override Beam #'breakable = ##t
+s8 * 12 * 26
+s8 * 7
+      f8 ~ f2 ~
+      f4. b4. ~ b2 ~ b8 c'8 ~
+      c'2. ~ c'8 f8 ~ f2 ~
+      f4. b4. ~ b2 ~ b8 c'8 ~
+      c'2. ~ c'8 f8 ~ f2 ~
+      f4. b4. ~ b2 ~ b8 c'8 ~
+      c'2. ~ c'8 f8 ~ f2 ~
+      f4. b4. ~ b2 ~ b8 c'8 ~
+      c'2. ~ c'8 f8 ~ f2 ~
+      f4. b4. ~ b2 ~ b8 c'8 ~
+      c'2. ~ c'8 f8 ~ f2
+
 }
 
 trading = {
@@ -1158,6 +1539,43 @@ a'[ d'' b' c'' e'' f'' b']
 a'[ d'' b' c'' e'' f'' b']
 s8 * 8
 s8 * 12 * 21
+\override Beam #'breakable = ##t
+s8 * 2
+a'8^"(eutropia)"[ d'' b' c'' e'' f'' b']
+a'[ d'' b' c'' e'' f'' b']
+a'[ d'' b' c'' e'' f'' b']
+a'[ d'' b' c'' e'' f'' b']
+a'[ d'' b' c'' e'' f'' b']
+a'[ d'' b' c'' e'' f'' b']
+d''8^"ersilia"[ f'' g'' a'' g'' f'']
+d''[ f'' g'' a'' g'' f'']
+d''[ f'' g'' a'' g'' f'']
+d''[ f'' g'' a'' g'' f'']
+d''[ f'' g'' a'' g'' f'']
+d''[ f'' g'' a'' g'' f'']
+d''[ f'' g'' a'' g'' f'']
+d''[ f'' g'' a'' g'' f'']
+d''[ f'' g'' a'' g'' f'']
+d''[ f'' g'' a'' g'' f'']
+d''[ f'' g'' a'' g'' f'']
+s8 * 10
+s8 * 12 * 15
+s8 * 12 * 11
+\override Beam #'breakable = ##t
+b'8^"esmeralda"[ a' f' b' c'' g' b' c'']
+b'[ a' f' b' c'' g' b' c'']
+b'[ a' f' b' c'' g' b' c'']
+b'[ a' f' b' c'' g' b' c'']
+b'[ a' f' b' c'' g' b' c'']
+b'[ a' f' b' c'' g' b' c'']
+b'[ a' f' b' c'' g' b' c'']
+b'[ a' f' b' c'' g' b' c'']
+b'[ a' f' b' c'' g' b' c'']
+b'[ a' f' b' c'' g' b' c'']
+b'[ a' f' b' c'' g' b' c'']
+s8 * 8
+s8 * 12 * 18
+s8 * 12 * 11
 }
 
 eyes = {
@@ -1264,6 +1682,74 @@ b'[ a' e'' d'' a']
 b'[ a' e'' d'' a']
 s8 * 2
 s8 * 12 * 17
+\override Beam #'breakable = ##t
+s8 * 4
+b'8^"(zemrude)"[ a' e'' d'' a']
+b'[ a' e'' d'' a']
+b'[ a' e'' d'' a']
+b'[ a' e'' d'' a']
+b'[ a' e'' d'' a']
+b'[ a' e'' d'' a']
+b'[ a' e'' d'' a']
+b'[ a' e'' d'' a']
+b'[ a' e'' d'' a']
+b'[ a' e'' d'' a']
+b'[ a' e'' d'' a']
+b'[ a' e'' d'' a']
+b'[ a' e'' d'' a']
+b'[ a' e'' d'' a']
+b'[ a' e'' d'' a']
+b'[ a' e'' d'' a']
+b'[ a' e'' d'' a']
+b'[ a' e'' d'' a']
+b'[ a' e'' d'' a']
+b'[ a' e'' d'' a']
+ b'[ a' e'' d'']^"*" 
+a'8^"baucis"[ b' c'' f' a' f']
+a'[ b' c'' f' a' f']
+a'[ b' c'' f' a' f']
+a'[ b' c'' f' a' f']
+a'[ b' c'' f' a' f']
+a'[ b' c'' f' a' f']
+a'[ b' c'' f' a' f']
+a'[ b' c'' f' a' f']
+a'[ b' c'' f' a' f']
+a'[ b' c'' f' a' f']
+a'[ b' c'' f' a' f']
+s8 * 6
+s8 * 12 * 10
+s8 * 12 * 11
+\override Beam #'breakable = ##t
+s8 * 1
+a'8^"(baucis)"[ b' c'' f' a' f']
+a'[ b' c'' f' a' f']
+a'[ b' c'' f' a' f']
+a'[ b' c'' f' a' f']
+a'[ b' c'' f' a' f']
+a'[ b' c'' f' a' f']
+a'[ b' c'' f' a' f']
+a'[ b' c'' f' a' f']
+a'[ b' c'' f' a' f']
+a'[ b' c'' f' a' f']
+a'[ b' c'' f' a' f']
+a'[ b' c'' f' a' f']
+a'[ b' c'' f' a' f']
+a'[ b' c'' f' a' f']
+a'[ b' c'' f' a' f']
+g'8^"phyllis"[ a' f' b' c'']
+g'[ a' f' b' c'']
+g'[ a' f' b' c'']
+g'[ a' f' b' c'']
+g'[ a' f' b' c'']
+g'[ a' f' b' c'']
+g'[ a' f' b' c'']
+g'[ a' f' b' c'']
+g'[ a' f' b' c'']
+g'[ a' f' b' c'']
+g'[ a' f' b' c'']
+s8 * 10
+s8 * 12 * 13
+s8 * 12 * 11
 }
 
 names = {
@@ -1326,6 +1812,90 @@ g'[ e' f' g' e' c']
 g'[ e' f' g' e' c']
 s8 * 8
 s8 * 12 * 11
+\override Beam #'breakable = ##t
+s8 * 5
+g'8^"(aglaura)"[ e' f' g' e' c']
+g'[ e' f' g' e' c']
+g'[ e' f' g' e' c']
+g'[ e' f' g' e' c']
+g'[ e' f' g' e' c']
+g'[ e' f' g' e' c']
+g'[ e' f' g' e' c']
+g'[ e' f' g' e' c']
+g'[ e' f' g' e' c']
+g'[ e' f' g' e' c']
+g'[ e' f' g' e' c']
+g'[ e' f' g' e' c']
+g'[ e' f' g' e' c']
+g'[ e' f' g' e' c']
+g'[ e' f' g' e' c']
+g'[ e' f' g' e' c']
+g'[ e' f' g' e' c']
+g'[ e' f' g' e' c']
+g'[ e' f' g' e' c']
+g'[ e' f' g' e' c']
+g'[ e' f' g' e' c']
+g'[ e' f' g' e' c']
+g'[ e' f' g' e' c']
+g'[ e' f' g' e' c']
+g'[ e' f' g' e' c']
+g'[ e' f' g' e' c']
+g'[ e' f' g' e' c']
+ g'[ e' f' g' e']^"*" 
+c'8^"leandra"[ a' f' a' e' f']
+c'[ a' f' a' e' f']
+c'[ a' f' a' e' f']
+c'[ a' f' a' e' f']
+c'[ a' f' a' e' f']
+c'[ a' f' a' e' f']
+c'[ a' f' a' e' f']
+c'[ a' f' a' e' f']
+c'[ a' f' a' e' f']
+c'[ a' f' a' e' f']
+c'[ a' f' a' e' f']
+s8 * 2
+s8 * 12 * 5
+s8 * 12 * 11
+\override Beam #'breakable = ##t
+s8 * 3
+c'8^"(leandra)"[ a' f' a' e' f']
+c'[ a' f' a' e' f']
+c'[ a' f' a' e' f']
+c'[ a' f' a' e' f']
+c'[ a' f' a' e' f']
+c'[ a' f' a' e' f']
+c'[ a' f' a' e' f']
+c'[ a' f' a' e' f']
+c'[ a' f' a' e' f']
+c'[ a' f' a' e' f']
+c'[ a' f' a' e' f']
+c'[ a' f' a' e' f']
+c'[ a' f' a' e' f']
+c'[ a' f' a' e' f']
+c'[ a' f' a' e' f']
+c'[ a' f' a' e' f']
+c'[ a' f' a' e' f']
+c'[ a' f' a' e' f']
+c'[ a' f' a' e' f']
+c'[ a' f' a' e' f']
+c'[ a' f' a' e' f']
+c'[ a' f' a' e' f']
+c'[ a' f' a' e' f']
+ c'[ a' f' a' e']^"*" 
+f'8^"pyrrha"[ g' e' c' a']
+f'[ g' e' c' a']
+f'[ g' e' c' a']
+f'[ g' e' c' a']
+f'[ g' e' c' a']
+f'[ g' e' c' a']
+f'[ g' e' c' a']
+f'[ g' e' c' a']
+f'[ g' e' c' a']
+f'[ g' e' c' a']
+f'[ g' e' c' a']
+s8 * 3
+s8 * 12 * 9
+s8 * 12 * 11
 }
 
 dead = {
@@ -1333,6 +1903,147 @@ dead = {
 \set Staff.shortInstrumentName = "dead"
 \override Beam #'breakable = ##t
 s8 * 12 * 180
+\override Beam #'breakable = ##t
+s8 * 6
+e'8^"(melania)"[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'8^"melania"[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+s8 * 4
+s8 * 6
+ c'2. ~ 
+ c'8 c'8 ~ c'2 ~ c'4 b2 ~ 
+ b4. b4. ~ b2 b4 ~ 
+ b2 ~ b8 d'8 ~ d'2. 
+ b2. ~ b8 f8 ~ f2 ~ 
+ f4 d'2 ~ d'4. a4. ~ 
+ a2 g4 ~ g2 ~ g8 c'8 ~ 
+ c'2. c'2. ~ 
+ c'8 c'8 ~ c'2 ~ c'4 b2 ~ 
+ b4. b4. ~ b2 b4 ~ 
+ b2 ~ b8 d'8 ~ d'2. 
+\override Beam #'breakable = ##t
+s8 * 4
+e'8^"(melania)"[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+e'[ g' a' e' a']
+ e'[ g' a' e']^"*" 
+a'8^"adelma"[ e' d' b']
+a'[ e' d' b']
+a'[ e' d' b']
+a'[ e' d' b']
+a'[ e' d' b']
+a'[ e' d' b']
+a'[ e' d' b']
+a'[ e' d' b']
+a'[ e' d' b']
+a'[ e' d' b']
+a'[ e' d' b']
+s8 * 5
+s8 * 12 * 5
+s8 * 6
+      c'2. ~
+      c'4 d'2 ~ d'2 b4 ~
+      b2. c'2. ~
+      c'4 d'2 ~ d'2 b4 ~
+      b2. c'2. ~
+      c'4 d'2 ~ d'2 b4 ~
+      b2. c'2. ~
+      c'4 d'2 ~ d'2 b4 ~
+      b2. c'2. ~
+      c'4 d'2 ~ d'2 b4 ~
+      b2. c'2.
+
 }
 
 sky = {
@@ -1351,6 +2062,87 @@ s8 * 12 * 169
  b4. ~ b8 g4 ~ g4. ~ g8 b4 ~ 
  b4. ~ b8 g4 ~ g4. ~ g8 b4 ~ 
  b4. ~ b8 g4 ~ g4. ~ g8 b4 
+\override Beam #'breakable = ##t
+s8 * 12 * 25
+s8 * 4
+ g4 ~ g2 ~ g8 c'8 ~ 
+ c'2. c'2. ~ 
+ c'8 c'8 ~ c'2 ~ c'4 b2 ~ 
+ b4. b4. ~ b2 b4 ~ 
+ b2 ~ b8 d'8 ~ d'2. 
+ b2. ~ b8 f8 ~ f2 ~ 
+ f4 d'2 ~ d'4. a4. ~ 
+ a2 g4 ~ g2 ~ g8 c'8 ~ 
+ c'2. c'2. ~ 
+ c'8 c'8 ~ c'2 ~ c'4 b2 ~ 
+ b4. b4. ~ b2 b4 
+\override Beam #'breakable = ##t
+s8 * 5
+g'8^"(eudoxia)"[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'8^"eudoxia"[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+g'[ f' b' c'' d'' e'']
+s8 * 1
+s8 * 4
+      g4 ~ g2.
+      b2. ~ b4 b2 ~
+      b2 g4 ~ g2.
+      b2. ~ b4 b2 ~
+      b2 g4 ~ g2.
+      b2. ~ b4 b2 ~
+      b2 g4 ~ g2.
+      b2. ~ b4 b2 ~
+      b2 g4 ~ g2.
+      b2. ~ b4 b2 ~
+      b2 g4 ~ g2.
+
 }
 
 continuous = {
@@ -1393,6 +2185,36 @@ s8 * 12 * 27
  b4 d'8 ~ d'4. ~ d'4 b8 ~ b4. ~ 
  b4 d'8 ~ d'4. ~ d'4 b8 ~ b4. ~ 
  b4 d'8 ~ d'4. ~ d'4 b8 ~ b4. 
+\override Beam #'breakable = ##t
+s8 * 12 * 25
+s8 * 2
+      d'2 ~ d'4. a4. ~
+      a2 g4 ~ g2 ~ g8 c'8 ~
+      c'2. c'2. ~
+
+ c'8 c'8 ~ c'2 ~ c'4 b2 ~ 
+ b4. b4. ~ b2 b4 ~ 
+ b2 ~ b8 d'8 ~ d'2. 
+ b2. ~ b8 f8 ~ f2 ~ 
+ f4 d'2 ~ d'4. a4. ~ 
+ a2 g4 ~ g2 ~ g8 c'8 ~ 
+ c'2. c'2. ~ 
+ c'8 c'8 ~ c'2 ~ c'4 b2 
+\override Beam #'breakable = ##t
+s8 * 12 * 26
+s8 * 2
+      d'2 ~ d'2 b4 ~
+      b2. c'2. ~
+      c'4 d'2 ~ d'2 b4 ~
+      b2. c'2. ~
+      c'4 d'2 ~ d'2 b4 ~
+      b2. c'2. ~
+      c'4 d'2 ~ d'2 b4 ~
+      b2. c'2. ~
+      c'4 d'2 ~ d'2 b4 ~
+      b2. c'2. ~
+      c'4 d'2 ~ d'2 b4
+
 }
 
 hidden = {
@@ -1447,6 +2269,33 @@ b2. c'
 b2. c'
 b2. c'
 b2. c'
+\override Beam #'breakable = ##t
+s8 * 12 * 25
+ b2. ~ b8 f8 ~ f2 ~ 
+ f4 d'2 ~ d'4. a4. ~ 
+ a2 g4 ~ g2 ~ g8 c'8 ~ 
+ c'2. c'2. ~ 
+ c'8 c'8 ~ c'2 ~ c'4 b2 ~ 
+ b4. b4. ~ b2 b4 ~ 
+ b2 ~ b8 d'8 ~ d'2. 
+ b2. ~ b8 f8 ~ f2 ~ 
+ f4 d'2 ~ d'4. a4. ~ 
+ a2 g4 ~ g2 ~ g8 c'8 ~ 
+ c'2. c'2. 
+\override Beam #'breakable = ##t
+s8 * 12 * 26
+      b2. ~ b4 b2 ~
+      b2 g4 ~ g2.
+      b2. ~ b4 b2 ~
+      b2 g4 ~ g2.
+      b2. ~ b4 b2 ~
+      b2 g4 ~ g2.
+      b2. ~ b4 b2 ~
+      b2 g4 ~ g2.
+      b2. ~ b4 b2 ~
+      b2 g4 ~ g2.
+      b2. ~ b4 b2
+
 }
 
 \score {

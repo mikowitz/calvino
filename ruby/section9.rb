@@ -1,33 +1,4 @@
 require './ponder'
-require 'yaml'
-
-#THEME = "b,, c, d, b,, g,, d, c, f,, b,, a,, b,, c,"
-THEME = "b c' d' b g d' c' f b a b c'"
-MELODIES = YAML.load(File.read('./cities.yml'))
-
-class Part
-  def city_haupstimme(city)
-    add MELODIES[city].tag('8').tag(%|^"#{city}"|).beam 
-    10.times { add MELODIES[city].beam }
-  end
-
-  def city_nebenstimme(city, repeats)
-    add MELODIES[city].tag('8').tag(%|^"(#{city})"|).beam 
-    repeats.times { add MELODIES[city].beam }
-  end
-
-  def double_bar
-    add '\bar "||"'
-  end
-
-  def s(n)
-    add "s8 * #{n}"
-  end
-
-  def ss(n)
-    add "s8 * 12 * #{n}"
-  end
-end
 
 s = score 'section9' do
   part 'thema' do
@@ -85,7 +56,7 @@ s = score 'section9' do
   part 'sky' do
     add %{\\override Beam #'breakable = ##t}
     s 2
-    city_nebenstimme('thekla', 16)
+    city_nebenstimme('thekla', 16, 11)
     city_haupstimme('perinthia')
     s 5
     ss 10
@@ -96,12 +67,12 @@ s = score 'section9' do
   part 'continuous' do
     add %{\\override Beam #'breakable = ##t}
     s 4
-    city_nebenstimme('trude', 42)
+    city_nebenstimme('trude', 42, 35)
     city_haupstimme('procopia')
     s 11
     ss 3
     s 2
-    city_nebenstimme('procopia', 7)
+    city_nebenstimme('procopia', 7, 5)
     city_haupstimme('cecilia')
     s 8
     ss 5
@@ -113,11 +84,11 @@ s = score 'section9' do
   part 'hidden' do
     add %{\\override Beam #'breakable = ##t}
     s 7
-    city_nebenstimme('olinda', 61)
+    city_nebenstimme('olinda', 61, 55)
     city_haupstimme('raissa')
-    city_nebenstimme('raissa', 30)
+    city_nebenstimme('raissa', 30, 26)
     city_haupstimme('marozia')
-    city_nebenstimme('marozia', 11)
+    city_nebenstimme('marozia', 11, 8)
     city_haupstimme('theodora')
     city_haupstimme('berenice')
     s 7
