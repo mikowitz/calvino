@@ -25,4 +25,5 @@ calvino-*.tar
 # Temporary files, for example, from tests.
 /tmp/
 
+/priv/.DS_Store
 /priv/images
